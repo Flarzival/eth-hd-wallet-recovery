@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "cd dist && surge --domain eth-hd-wallet-recovery.surge.sh --project ./"
   },
   "dependencies": {
     "bip39": "^2.6.0",
